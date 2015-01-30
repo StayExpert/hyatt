@@ -1,6 +1,6 @@
 {
-  "name": "starwood",
-  "version": "0.1.1",
+  "name": "hyatt",
+  "version": "0.0.0",
   "description": "starwood hotels price fetcher",
   "main": "index.js",
   "scripts": {
