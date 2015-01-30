@@ -1,27 +1,27 @@
 {
   "name": "hyatt",
   "version": "0.0.0",
-  "description": "starwood hotels price fetcher",
+  "description": "hyatt hotels price fetcher",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=starwood,starwood:* node_modules/.bin/mocha tests/search.js",
-    "dev": "DEBUG=starwood,starwood:*,sdk,sdk:* node example/example.js",
+    "test": "DEBUG=hyatt,hyatt:* node_modules/.bin/mocha tests/search.js",
+    "dev": "DEBUG=hyatt,hyatt:*,sdk,sdk:* node example/example.js",
     "example": "npm run dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sayoou/starwood.git"
+    "url": "https://github.com/sayoou/hyatt.git"
   },
   "keywords": [
     "spg",
-    "starwood"
+    "hyatt"
   ],
   "author": "turing <o.u.turing@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sayoou/starwood/issues"
+    "url": "https://github.com/sayoou/hyatt/issues"
   },
-  "homepage": "https://github.com/sayoou/starwood",
+  "homepage": "https://github.com/sayoou/hyatt",
   "dependencies": {
     "cheerio": "^0.18.0",
     "debug": "^2.1.0",

@@ -1,1 +1,1 @@
-module.exports = require('./lib/starwood');
+module.exports = require('./lib/hyatt');

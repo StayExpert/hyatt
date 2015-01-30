@@ -1,17 +1,17 @@
-## starwood ![NPM version](https://img.shields.io/npm/v/starwood.svg?style=flat) 
+## hyatt ![NPM version](https://img.shields.io/npm/v/hyatt.svg?style=flat) 
 
-a SDK of Starwood hotels APIs.
+a SDK of hyatt hotels APIs.
 
 ### Installation
 ```bash
-$ npm install starwood --save
+$ npm install hyatt --save
 ```
 
 ### Example
 ```js
-var starwood = require('starwood');
+var hyatt = require('hyatt');
 
-starwood.search({
+hyatt.search({
   country: 'CN',
   province: 'CNHP',
   city: 'Sanya',
@@ -46,7 +46,7 @@ Response JSON would like this:
 ```
 
 ### API
-Check this file: `lib/starwood.js`
+Check this file: `lib/hyatt.js`
 
 ### Tests
 ```bash
