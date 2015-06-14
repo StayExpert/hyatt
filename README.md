@@ -1,15 +1,17 @@
-## hyatt ![NPM version](https://img.shields.io/npm/v/hyatt.svg?style=flat) 
+## stayexpert-haytt ![NPM version](https://img.shields.io/npm/v/hyatt.svg?style=flat) 
 
-a SDK of hyatt hotels APIs.
+a SDK of hyatt hotels APIs. [WIP yet]
+
+`haytt` namespace was taken by haytt hotel group, now using `stayexpert-haytt` instead.
 
 ### Installation
 ```bash
-$ npm install hyatt --save
+$ npm install stayexpert-haytt --save
 ```
 
 ### Example
 ```js
-var hyatt = require('hyatt');
+var hyatt = require('stayexpert-haytt');
 
 hyatt.search({
   country: 'CN',

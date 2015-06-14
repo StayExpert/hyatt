@@ -1,7 +1,7 @@
 {
-  "name": "hyatt",
-  "version": "0.0.0",
-  "description": "hyatt hotels price fetcher",
+  "name": "stayexpert-haytt",
+  "version": "0.0.1",
+  "description": "a hyatt hotels price fetcher by stayexpert",
   "main": "index.js",
   "scripts": {
     "test": "DEBUG=hyatt,hyatt:* node_modules/.bin/mocha tests/search.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sayoou/hyatt.git"
+    "url": "https://github.com/StayExpert/hyatt.git"
   },
   "keywords": [
     "spg",
@@ -19,9 +19,9 @@
   "author": "turing <o.u.turing@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sayoou/hyatt/issues"
+    "url": "https://github.com/StayExpert/hyatt/issues"
   },
-  "homepage": "https://github.com/sayoou/hyatt",
+  "homepage": "https://github.com/StayExpert/hyatt",
   "dependencies": {
     "cheerio": "^0.18.0",
     "debug": "^2.1.0",
